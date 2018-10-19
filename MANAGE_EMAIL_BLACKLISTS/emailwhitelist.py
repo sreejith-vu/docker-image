@@ -1,5 +1,9 @@
 #/usr/bin/env python
-#Individual func to remove from blacklist
+#title           :emailwhitelist.py
+#description     :This sript is a part of the application which handles whitelisting.
+#author          :Sreejith VU (sreejithvu@outlook.com)
+#date            :20180804
+#===========================================================================================================
 
 import requests
 
