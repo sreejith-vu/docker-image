@@ -1,5 +1,9 @@
 #/usr/bin/env python
-#Individual func to check blacklist
+#title           :blacklistcheck.py
+#description     :This script is a part of application which will handle email blacklist and reporting.
+#author          :Sreejith VU (sreejithvu@outlook.com)
+#date            :20180804
+#===========================================================================================================
 
 import requests
 

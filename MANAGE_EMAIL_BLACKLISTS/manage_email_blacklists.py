@@ -1,5 +1,11 @@
 #!/usr/bin/env python
-#We application to check email blacklist and whitelist them.
+#title           :manage_email_blacklists.py
+#description     :This app is to check email blacklist and whitelist them.
+#author		 :Sreejith VU (sreejithvu@outlook.com)
+#date            :20180804
+#usage		 :python manage_email_blacklists.py
+#===========================================================================================================
+
 import hashlib
 import emailwhitelist
 import blacklistcheck
