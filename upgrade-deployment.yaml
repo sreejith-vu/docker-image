@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: email-app-deployment
+  labels:
+    app: python-email-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: python-email-app
+  template:
+    metadata:
+      labels:
+        app: python-email-app
+    spec:
+      containers:
+      - name: python-email-app-container
+        image: sreejithvu/email-manage-img:2.0
+        ports:
+        - containerPort: 8080
