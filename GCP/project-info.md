@@ -5,14 +5,14 @@ I have first created the email management application in Python language using F
 
 **Kubernetes Cluster:**
 
-![Kubernetes Cluster](/screenshots/cluster.png)
+![Kubernetes Cluster](/GCP/screenshots/cluster.png)
 
 
 **Application Interface:**
 
-![Web Application](/screenshots/web-app.png)
+![Web Application](/GCP/screenshots/web-app.png)
 
 
 **After Rollout with updated image:**
 
-![After rollout](/screenshots/after-rollout.png)
+![After rollout](/GCP/screenshots/after-rollout.png)
