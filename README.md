@@ -3,7 +3,7 @@
 ## Technologies used:
 
 ```
-GCP, EKS, ECR, DOCKER, HELM, TRAEFIK
+KUBERNETES, GCP, EKS, ECR, DOCKER, HELM, TRAEFIK
 ```
 
 
