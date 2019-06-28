@@ -38,3 +38,7 @@ In EKS, I have used docker registry to save the image and used secret to pull th
 
 Here i have user ECR to save the image and for deployment. I have also tried traefik with this setup.
 **HELM** was used to install traefik.
+
+## Docker Containers
+
+I have also created the same as docker container and linked with nginx in reverse proxy.
