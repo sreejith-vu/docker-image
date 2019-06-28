@@ -13,7 +13,7 @@ KUBERNETES
 ```
 
 
-I have done this project is only due to my intrest in learing more about kubernetes.
+I have done this project only due to my keen intrest in learing kubernetes.
 
 
 ### What I have done?
