@@ -1,13 +1,16 @@
 # Kubernetes Web Application
 
-## Technologies which i have used are: 
-```GCP, EKS, ECR, DOCKER, HELM, TRAEFIK```
+## Technologies used:
+
+```
+GCP, EKS, ECR, DOCKER, HELM, TRAEFIK
+```
 
 
 I have done this project is only due to my intrest in learing more about kubernetes.
 
 
-###What I have done?
+### What I have done?
 
 Developed a application in python using the flask module which will check if the email address is blacklisted or not in the database.
 If address in blacklisted it will provide a button, using this button we can whitelist the email address. (This was developed for my previous company)
