@@ -28,7 +28,7 @@ The respective image URL's were used to make deployments in Kubernetes.
 
 ## AWS - EKS + ECR
 
-###### Created EKS cluster 
+#### Created EKS cluster 
 ```
 eksctl create cluster --name=thirdekscluster --ssh-access=true --ssh-public-key=sreeeks --nodegroup-name=standard-workers --node-type=t3.medium --nodes=3 --nodes-min=1 --nodes-max=4 --node-ami=auto
 ```
