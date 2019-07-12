@@ -36,16 +36,31 @@ Deployed Kubernetes Dashboard
 
 ![EKS NODES](/snapshots/kube-node.png)
 
+
 Installed **Traefik** (tried with **Helm Chart** and Kubernetes object - traefik-ds.yaml)
 
-Used **ECR** to save the docker image and for deployment. 
-
 Exposed Traefik UI with type: LoadBalancer
+
+![Traefik UI Providers](/snapshots/traefik-ui.png)
+
+![Traefik UI Health](/snapshots/traefik-ui2.png)
+
+
+Used **ECR** to save the docker image required for deployment. 
+
+![AWS ECR](/snapshots/aws-ecr.png)
+
 
 Deployed web-application:
 
 * email-app-deployment.yaml
+
+![Kubernetes Deployment](/snapshots/kube-deploy.png)
+
 * email-app-service.yaml
+
+![Kubernetes Service](/snapshots/kube-svc.png)
+
 
 Purchased domain name **emailwhitelister.ml** 
 
@@ -55,9 +70,18 @@ Updated DNS registrar to use AWS nameservers.
 
 Set alias to loadbalancer and added www.emailwhitelister.ml CNAME as well.
 
+![Route53 adding domain](/snapshots/route53.png)
+
+
 Created ingress for domain names emailwhitelister.ml and www.emailwhitelister.ml
 
 * web-domain-ingress.yaml
+
+![Kubernetes Ingress](/snapshots/kube-ing.png)
+
+Both emailwhitelister.ml and www.emailwhitelister.ml was loading fine.
+
+
 
 
 ## GCP + Google Registry
