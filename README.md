@@ -34,6 +34,8 @@ eksctl create cluster --name=thirdekscluster --ssh-access=true --ssh-public-key=
 
 Deployed Kubernetes Dashboard
 
+![EKS NODES](/snapshots/kube-node.png)
+
 Installed **Traefik** (tried with **Helm Chart** and Kubernetes object - traefik-ds.yaml)
 
 Used **ECR** to save the docker image and for deployment. 
