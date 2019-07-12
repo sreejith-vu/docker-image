@@ -33,14 +33,14 @@ The respective image URL's were used to make deployments in Kubernetes.
 eksctl create cluster --name=thirdekscluster --ssh-access=true --ssh-public-key=sreeeks --nodegroup-name=standard-workers --node-type=t3.medium --nodes=3 --nodes-min=1 --nodes-max=4 --node-ami=auto
 ```
 
-Deployed Kubernetes Dashboard
+#### Deployed Kubernetes Dashboard
 
 ![EKS NODES](/snapshots/kube-node.png)
 
 
-Installed **Traefik** (tried with **Helm Chart** and Kubernetes object - traefik-ds.yaml)
+#### Installed **Traefik** (tried with **Helm Chart** and Kubernetes object - traefik-ds.yaml)
 
-Exposed Traefik UI with type: LoadBalancer
+#### Exposed Traefik UI with type: LoadBalancer
 
 ![Traefik UI Providers](/snapshots/traefik-ui.png)
 
