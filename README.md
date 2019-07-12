@@ -25,6 +25,32 @@ The python code is then containerised with alpine image using Docker, and this i
 
 The respective image URL's were used to make deployments in Kubernetes.
 
+## AWS - EKS + ECR
+
+Created EKS cluster 
+```
+eksctl create cluster --name=thirdekscluster --ssh-access=true --ssh-public-key=sreeeks --nodegroup-name=standard-workers --node-type=t3.medium --nodes=3 --nodes-min=1 --nodes-max=4 --node-ami=auto
+```
+
+Deployed Kubernetes Dashboard
+
+Installed **Traefik** (tried with **Helm Chart** and Kubernetes object - traefik-ds.yaml)
+
+Used **ECR** to save the docker image and for deployment. 
+
+Exposed Traefik UI with type: LoadBalancer
+
+Purchased domain name **emailwhitelister.ml** 
+
+In **Route53** i have hosted this same domain in DNS management
+
+Updated DNS registrar to use AWS nameservers.
+
+Set alias to loadbalancer and added www.emailwhitelister.ml CNAME as well.
+
+Created ingress(web-domain-ingress.yaml) for domain names emailwhitelister.ml and www.emailwhitelister.ml
+
+
 
 ## GCP + Google Registry
 
@@ -34,10 +60,6 @@ In GCP, i have used google registry to save the image. I have created, exposed a
 
 In EKS, I have used docker registry to save the image and used secret to pull the image while deployment
 
-## AWS - EKS + ECR
-
-Here i have user ECR to save the image and for deployment. I have also tried traefik with this setup.
-**HELM** was used to install traefik.
 
 ## Docker Containers
 
