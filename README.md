@@ -38,7 +38,7 @@ eksctl create cluster --name=thirdekscluster --ssh-access=true --ssh-public-key=
 ![EKS NODES](/snapshots/kube-node.png)
 
 
-#### Installed **Traefik** (tried with **Helm Chart** and Kubernetes object - traefik-ds.yaml)
+#### Installed *Traefik* (tried with *Helm Chart* and Kubernetes object - *traefik-ds.yaml*)
 
 #### Exposed Traefik UI with type: LoadBalancer
 
@@ -47,7 +47,7 @@ eksctl create cluster --name=thirdekscluster --ssh-access=true --ssh-public-key=
 ![Traefik UI Health](/snapshots/traefik-ui2.png)
 
 
-#### Used **ECR** to save the docker image required for deployment. 
+#### Used *ECR* to save the docker image required for deployment. 
 
 ![AWS ECR](/snapshots/aws-ecr.png)
 
@@ -63,24 +63,24 @@ eksctl create cluster --name=thirdekscluster --ssh-access=true --ssh-public-key=
 ![Kubernetes Service](/snapshots/kube-svc.png)
 
 
-#### Purchased domain name **emailwhitelister.ml** 
+#### Purchased domain name *emailwhitelister.ml*
 
-#### In **Route53** i have hosted this same domain in DNS management
+#### In *Route53* i have hosted this same domain in DNS management
 
 #### Updated DNS registrar to use AWS nameservers.
 
-#### Set alias to loadbalancer and added www.emailwhitelister.ml CNAME as well.
+#### Set alias to loadbalancer and added *www.emailwhitelister.ml* CNAME as well.
 
 ![Route53 adding domain](/snapshots/route53.png)
 
 
-#### Created ingress for domain names emailwhitelister.ml and www.emailwhitelister.ml
+#### Created ingress for domain names *emailwhitelister.ml* and *www.emailwhitelister.ml*
 
 * web-domain-ingress.yaml
 
 ![Kubernetes Ingress](/snapshots/kube-ing.png)
 
-#### Both emailwhitelister.ml and www.emailwhitelister.ml was loading fine, recoreded this is below GIF.
+#### Both *http://emailwhitelister.ml/* and *http://www.emailwhitelister.ml/* was loading fine, recoreded this is below GIF.
 
 ![Web App](/snapshots/final.gif)
 
