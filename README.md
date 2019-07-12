@@ -1,4 +1,4 @@
-# Kubernetes Web Application
+# Kubernetes Web Application / PROMETHEUS / EFK
 
 ### Technologies used:
 
