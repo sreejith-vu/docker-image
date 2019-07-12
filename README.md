@@ -3,12 +3,13 @@
 ### Technologies used:
 
 ```
-GCP
 EKS
 ECR
+GCP
 HELM
 DOCKER
 TRAEFIK
+ROUTE53
 KUBERNETES
 ```
 
