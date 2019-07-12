@@ -19,7 +19,7 @@ I have done this project only due to my keen intrest in learing kubernetes.
 ### What I have done?
 
 Developed a application in python using the flask module which will check if the email address is blacklisted or not in the database.
-If address in blacklisted it will provide a button, using this button we can whitelist the email address. (This was developed for my previous company)
+If address in blacklisted it will provide a button, using this button we can whitelist the email address. 
 
 The python code is then containerised with alpine image using Docker, and this image is then pushed to docker public registry, private registry and AWS ECR as well.
 
