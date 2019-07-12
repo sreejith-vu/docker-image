@@ -40,6 +40,11 @@ Used **ECR** to save the docker image and for deployment.
 
 Exposed Traefik UI with type: LoadBalancer
 
+Deployed web-application:
+
+* email-app-deployment.yaml
+* email-app-service.yaml
+
 Purchased domain name **emailwhitelister.ml** 
 
 In **Route53** i have hosted this same domain in DNS management
@@ -48,8 +53,9 @@ Updated DNS registrar to use AWS nameservers.
 
 Set alias to loadbalancer and added www.emailwhitelister.ml CNAME as well.
 
-Created ingress(web-domain-ingress.yaml) for domain names emailwhitelister.ml and www.emailwhitelister.ml
+Created ingress for domain names emailwhitelister.ml and www.emailwhitelister.ml
 
+* web-domain-ingress.yaml
 
 
 ## GCP + Google Registry
