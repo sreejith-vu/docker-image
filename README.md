@@ -80,7 +80,7 @@ eksctl create cluster --name=thirdekscluster --ssh-access=true --ssh-public-key=
 
 ![Kubernetes Ingress](/snapshots/kube-ing.png)
 
-#### Both *http://emailwhitelister.ml/* and *http://www.emailwhitelister.ml/* was loading fine, recoreded this is below GIF.
+#### Both *http://emailwhitelister.ml/* and *http://www.emailwhitelister.ml/* was loading fine, recoreded this in below GIF.
 
 ![Web App](/snapshots/final.gif)
 
