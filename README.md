@@ -81,6 +81,7 @@ Created ingress for domain names emailwhitelister.ml and www.emailwhitelister.ml
 
 Both emailwhitelister.ml and www.emailwhitelister.ml was loading fine.
 
+![Web App](/snapshots/final.gif)
 
 
 
