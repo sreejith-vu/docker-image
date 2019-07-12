@@ -69,7 +69,7 @@ eksctl create cluster --name=thirdekscluster --ssh-access=true --ssh-public-key=
 
 #### Updated DNS registrar to use AWS nameservers.
 
-#### Set alias to loadbalancer and added *www.emailwhitelister.ml* CNAME as well.
+#### Set alias to loadbalancer DNS name  and added *www.emailwhitelister.ml* CNAME as well.
 
 ![Route53 adding domain](/snapshots/route53.png)
 
