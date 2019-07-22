@@ -1,4 +1,4 @@
-# Kubernetes Web Application / EFK
+# Kubernetes Web Application
 
 ### Technologies used:
 
